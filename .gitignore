@@ -1,0 +1,5 @@
+target/*
+!target/*.jar
+target/*-sources.jar
+target/original*.jar
+.settings
