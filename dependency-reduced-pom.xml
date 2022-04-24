@@ -65,7 +65,7 @@
   <properties>
     <maven-wildfly-plugin.version>2.0.2.Final</maven-wildfly-plugin.version>
     <maven.compiler.target>11</maven.compiler.target>
-    <build.outputDirectory>${project.basedir}/../../keycloak/release-17.0.1-legacy/standalone/deployments</build.outputDirectory>
+    <build.outputDirectory>${project.basedir}/target</build.outputDirectory>
     <maven.compiler.source>11</maven.compiler.source>
     <keycloak.version>17.0.1</keycloak.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

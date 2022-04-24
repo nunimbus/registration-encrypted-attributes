@@ -22,7 +22,8 @@
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <maven-wildfly-plugin.version>2.0.2.Final</maven-wildfly-plugin.version>
 
-		<build.outputDirectory>${project.basedir}/../../keycloak/release-17.0.1-legacy/standalone/deployments</build.outputDirectory>
+		<!-- build.outputDirectory>${project.basedir}/../../keycloak/release-17.0.1-legacy/standalone/deployments</build.outputDirectory-->
+		<build.outputDirectory>${project.basedir}/target</build.outputDirectory>
 		<source.outputDirectory>${project.basedir}/target</source.outputDirectory>
 		<attach.sources.phase>none</attach.sources.phase>
     </properties>
