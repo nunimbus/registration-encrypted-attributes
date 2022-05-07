@@ -113,7 +113,7 @@ public class RegistrationGenerateEncryptedAttributes implements FormAction, Form
 				encrypted = CryptoUtils.encrypt(key, password);
 				user.setSingleAttribute("passwordEncryptionKey", encrypted);
 
-/*
+/**/
 		    	System.err.println("REGISTRATION: Creating pw-encrypted values:");
 		    	System.err.println(new Throwable().getStackTrace()[0].getFileName() + ":" + new Throwable().getStackTrace()[0].getLineNumber());
 				System.err.println("Encrypted: " + encrypted.substring(0, 8));
@@ -130,9 +130,10 @@ public class RegistrationGenerateEncryptedAttributes implements FormAction, Form
 		else {
 			try {
 		        String credential = context.getSession().userCredentialManager().getStoredCredentialsStream(context.getRealm(), user).findFirst().get().getValue();
+		        encrypted = CryptoUtils.encrypt(key, credential);
 				user.setSingleAttribute("encryptionKey", encrypted);
 
-/*
+/**/
 		        System.err.println("REGISTRATION: Creating credential encrypted values:");
 		    	System.err.println(new Throwable().getStackTrace()[0].getFileName() + ":" + new Throwable().getStackTrace()[0].getLineNumber());
 				encrypted = CryptoUtils.encrypt(key, credential);
