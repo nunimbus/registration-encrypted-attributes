@@ -1,0 +1,3 @@
+com/nunimbus/keycloak/extensions/actions/forms/ASCIICharacterData.class
+com/nunimbus/keycloak/extensions/actions/forms/CryptoUtils.class
+com/nunimbus/keycloak/extensions/actions/forms/RegistrationGenerateEncryptedAttributes.class

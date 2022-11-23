@@ -4,7 +4,7 @@
 
     <groupId>com.nunimbus.keycloak</groupId>
     <artifactId>registration-encrypted-attributes</artifactId>
-    <version>17.0.1</version>
+    <version>20.0.1</version>
     <packaging>jar</packaging>
 
     <name>KEYCLOAK EXTENSIONS :: SPI registration profile</name>
@@ -17,7 +17,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
 
-        <keycloak.version>17.0.1</keycloak.version>
+        <keycloak.version>20.0.1</keycloak.version>
 
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <maven-wildfly-plugin.version>2.0.2.Final</maven-wildfly-plugin.version>

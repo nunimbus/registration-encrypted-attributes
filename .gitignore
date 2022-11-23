@@ -3,3 +3,4 @@ target/*
 target/*-sources.jar
 target/original*.jar
 .settings
+*.jar

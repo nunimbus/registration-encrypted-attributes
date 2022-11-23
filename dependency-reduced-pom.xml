@@ -4,7 +4,7 @@
   <groupId>com.nunimbus.keycloak</groupId>
   <artifactId>registration-encrypted-attributes</artifactId>
   <name>KEYCLOAK EXTENSIONS :: SPI registration profile</name>
-  <version>17.0.1</version>
+  <version>20.0.1</version>
   <description>Example of a custom registration profile</description>
   <build>
     <directory>${project.basedir}/target</directory>
@@ -46,19 +46,19 @@
     <dependency>
       <groupId>org.keycloak</groupId>
       <artifactId>keycloak-server-spi</artifactId>
-      <version>17.0.1</version>
+      <version>20.0.1</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.keycloak</groupId>
       <artifactId>keycloak-server-spi-private</artifactId>
-      <version>17.0.1</version>
+      <version>20.0.1</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.keycloak</groupId>
       <artifactId>keycloak-services</artifactId>
-      <version>17.0.1</version>
+      <version>20.0.1</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>
@@ -67,7 +67,7 @@
     <maven.compiler.target>11</maven.compiler.target>
     <build.outputDirectory>${project.basedir}/target</build.outputDirectory>
     <maven.compiler.source>11</maven.compiler.source>
-    <keycloak.version>17.0.1</keycloak.version>
+    <keycloak.version>20.0.1</keycloak.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
     <attach.sources.phase>none</attach.sources.phase>
