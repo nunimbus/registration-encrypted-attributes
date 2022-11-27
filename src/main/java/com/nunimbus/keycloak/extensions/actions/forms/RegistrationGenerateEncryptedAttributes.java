@@ -129,7 +129,7 @@ public class RegistrationGenerateEncryptedAttributes implements FormAction, Form
 		}
 		else {
 			try {
-		        String credential = context.getSession().userCredentialManager().getStoredCredentialsStream(context.getRealm(), user).findFirst().get().getValue();
+		        String credential = user.credentialManager().getStoredCredentialsStream().findFirst().get().getValue();
 		        encrypted = CryptoUtils.encrypt(key, credential);
 				user.setSingleAttribute("encryptionKey", encrypted);
 
