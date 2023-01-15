@@ -20,7 +20,7 @@ public enum ASCIICharacterData implements CharacterData {
 	/** Special characters. */
 	Special("INSUFFICIENT_SPECIAL",
 			// ASCII symbols
-			"!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"),
+			"!#$%&()*+,-./:;<=>?@[]^_`{|}~"),
 	
 	ASCII("INSUFFICIENT_ASCII", Alphabetical.getCharacters() + Digit.getCharacters() + Special.getCharacters());
 
